@@ -2,9 +2,9 @@ import os
 import re
 from datetime import datetime
 
-"""filename = raw_input("Enter filename : ")
-print filename"""
-filename = 'test.csv'
+filename = raw_input("Enter filename : ")
+print filename
+#filename = 'test.csv'
 
 def csv_parser(filename):
 	"""functions to read csv file and return a object list of dictionaries """
